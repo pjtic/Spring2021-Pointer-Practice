@@ -1,8 +1,9 @@
 //   my first pointer
 #include <iostream>
 using namespace std;
-intmain (){intfirstvalue, secondvalue;
-	int* mypointer;
+int main (){
+	int firstvalue, secondvalue;
+	int *mypointer;
 	
 	mypointer= &firstvalue;
 	*mypointer= 10;
@@ -10,4 +11,5 @@ intmain (){intfirstvalue, secondvalue;
 	*mypointer= 20;
 	cout<< "firstvalueis " << firstvalue<< endl;
 	cout<< "secondvalueis " << secondvalue<< endl;
-return 0;};
+	return 0;
+};
